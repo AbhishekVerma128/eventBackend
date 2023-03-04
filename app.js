@@ -5,7 +5,7 @@ const user = require("./routes/user")
 const proposal = require('./routes/proposals')
 const app = express()
 const cors = require("cors")
-const port = process.env.port || 8080;
+const port = process.env.port || 5000;
 app.use(cors())
 
 const DB = 'mongodb+srv://parthThacker:parth1213@cluster0.twdoy22.mongodb.net/?retryWrites=true&w=majority'
